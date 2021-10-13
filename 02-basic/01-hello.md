@@ -35,7 +35,7 @@ $ gotip run hello.go
 hello world
 ```
 
-`go`泛型的核心在于类型约束，即上述的
+`go`泛型的核心在于类型约束，即下面描述的类型
 
 ```go
 type AddType interface{

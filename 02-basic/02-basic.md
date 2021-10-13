@@ -49,6 +49,16 @@ func p[T any](a T) string {
 }
 ```
 
+### 底层类型
+
+什么叫底层类型是T？当我们用T通过type的方式定义新类型的时候或者别名类型的时候，其底层类型就是T。
+
+```
+type A int
+type B = package.T
+```
+- A的底层类型就是`int`
+
 
 ## 小结
 
